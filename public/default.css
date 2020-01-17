@@ -1,0 +1,30 @@
+.html5 {
+    color:#E54D26;
+}
+.css3 {
+    color:#264DE4;
+}
+.js {
+    color:#F7E018;
+}
+.vue {
+    color:#41B883;
+}
+.python {
+color: #3471A0;
+}
+.python-alt {
+color: #FFD947;
+}
+.bootstrap {
+    color:#563D7C;
+}
+.node {
+    color:#8BC500;
+}
+.npm {
+    color:#CC3534;
+}
+html, body {
+   background-color:rgba(0,0,0,0.85);
+}

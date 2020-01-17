@@ -1,17 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Jumbotron style='padding-top:7.5%;' />
+    <Tabs style='width:75%;margin:auto;' />
+    <Carousel style='width:75%;margin:auto;display:none;' />
+    <Projects  style='width:75%;margin:auto;display:none;'/>
+    <Skills style='display:none;'/>
+    <Footer style='margin-top:1%;' />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Carousel from './components/Carousel.vue'
+import Skills from './components/Skills.vue'
+import Footer from './components/Footer.vue'
+import Projects from './components/Projects.vue'
+import Jumbotron from './components/Jumbotron.vue'
+import Tabs from './components/Tabs.vue'
+
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Carousel,
+    Footer,
+    Skills,
+    Projects,
+    Jumbotron,
+    Tabs
   }
 }
 </script>
@@ -23,6 +38,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color:rgba(0,0,0,0.85);
 }
 </style>
