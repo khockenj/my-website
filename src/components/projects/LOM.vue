@@ -9,10 +9,10 @@
       <h5 class="mt-0">League of Mentoring</h5>
       <p>
         here's a real vague description of the project. it's really cool and does awesome things so you probably should hire me.
+        <br /><b-button variant='primary' style='margin-top:1rem;' size="sm" @click="toggleSideTech">Other Technologies</b-button>
+        <b-alert style='margin:1rem;padding-top:0;' variant='info' :show="showTech" fade><i class="fab fa-bootstrap bootstrap text" v-b-tooltip.hover title="Bootstrap 4"></i></b-alert>
       </p>
-      <p>
-        Other interesting technologies used: <i class="fab fa-bootstrap bootstrap text" v-b-tooltip.hover title="Bootstrap 4"></i>
-      </p>
+      
 
       <b-media>
         <template v-slot:aside>
@@ -66,7 +66,17 @@
 
 <script>
 export default {
-    name: 'LOM'
+    name: 'LOM',
+    data() {
+      return {
+        showTech: false
+      }
+    },
+    methods: {
+      toggleSideTech() {
+        this.showTech = !this.showTech;
+      }
+    }
 }
 </script>
 
@@ -76,6 +86,12 @@ export default {
   padding-top: 1rem;
 }
 .text {
-  font-size:24px;
+  font-size:36px;
+}
+.card {
+  border-top:0;
+}
+.card-body{
+    padding-top:0;
 }
 </style>

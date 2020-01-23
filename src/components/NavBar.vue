@@ -30,10 +30,10 @@ export default {
   data() {
     return {
       projects: [
+        {'name': 'My Website', 'url': '/'},
         {'name': 'League of Mentoring', 'url': '#'},
-        {'name': 'Stock Tracker', 'url': '#'},
-        {'name': 'Plotting the US', 'url': '#'},
-        {'name': 'My Website', 'url': '/'}
+        {'name': 'US Data Plotting', 'url': '#'},
+        {'name': 'Stock Tracker', 'url': '#'}
       ]
     }
   }
