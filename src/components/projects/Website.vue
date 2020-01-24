@@ -18,7 +18,7 @@
 
         <h5 class="mt-0">Vue</h5>
         <p class="mb-0">
-          i did really cool things with vue.js
+          This is actually my second project with Vue. I felt very comfortable with it after working on another project with it, so I decided to continue my learning with it on here. 
         </p>
       </b-media>
 
@@ -29,7 +29,7 @@
 
         <h5 class="mt-0">Bootstrap</h5>
         <p class="mb-0">
-          i did really cool things with boot4
+          I used Bootstrap-Vue which is an implementation of Bootstrap with the Vue framework. It allows for quick and easy Bootstrap layouts to be designed completely in-sync with Vue.
         </p>
       </b-media>
 

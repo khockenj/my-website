@@ -8,7 +8,9 @@
 
       <h5 class="mt-0">League of Mentoring</h5>
       <p>
-        here's a real vague description of the project. it's really cool and does awesome things so you probably should hire me.
+        League of Mentoring is a community that connects League of Legends players and coaches to help enable both students and coaches to improve their craft.
+        This project was created to streamline the process of connecting students and mentors, cutting down excess time spent on scheduling sessions and replying to messages and creating more time for actual coaching.
+        It is a full stack web application that allows for things like signing up, logging in, scheduling coaching, reviews, and 3rd party integrations.
         <br /><b-button variant='primary' style='margin-top:1rem;' size="sm" @click="toggleSideTech">Other Technologies</b-button>
         <b-alert style='margin:1rem;padding-top:0;' variant='info' :show="showTech" fade><i class="fab fa-bootstrap bootstrap text" v-b-tooltip.hover title="Bootstrap 4"></i></b-alert>
       </p>
@@ -21,7 +23,8 @@
 
         <h5 class="mt-0">Vue</h5>
         <p class="mb-0">
-          i did really cool things with vue.js
+          While Vue might be a little less common, I decided on it because of <a href='https://2019.stateofjs.com/overview/'>this</a> super interesting website which piqued my interest in Vue as an up and coming framework.
+          I used Vue to manipulate the DOM and to pass data to and from the backend and update the page accordingly. One of the coolest things (in my opinion) that I did was making a live search of coaches.
         </p>
       </b-media>
     
@@ -33,7 +36,8 @@
 
         <h5 class="mt-0">Python</h5>
         <p class="mb-0">
-          i did really cool things with python bro
+          I decided on Python for the backend mostly because I'm very familiar with Python and Flask. I used Python to pull data from 3rd party resources such as Discord Oauth(for logging in),
+          Twitch API to show which coaches were live streaming, Riot API to pull statistics and accounts from players, and also from Riot, but from their static API, I pulled champion skins and images that can be set as your profile background.
         </p>
       </b-media>
 
@@ -44,7 +48,7 @@
 
         <h5 class="mt-0">Flask</h5>
         <p class="mb-0">
-          i did really cool things with python bro
+          I used the Flask microframework to create a RESTful API that is used in cooperation with Vue to load information from the backend (mongoDB and other resources) to show on the frontend.
         </p>
       </b-media>
 
@@ -55,7 +59,7 @@
 
         <h5 class="mt-0">MongoDB</h5>
         <p class="mb-0">
-          i did really cool things with python bro
+          I went with MongoDB because I wanted to utilize a noSQL database solution that has good Python and Flask support. I used the Flask-PyMongo module to bridge Flask and PyMongo to be able to easily utilize the features of MongoDB with my Flask infrastructure.
         </p>
       </b-media>
 

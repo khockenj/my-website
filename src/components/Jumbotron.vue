@@ -3,7 +3,7 @@
     <template v-slot:header>Kevin Hockenjos</template>
 
     <template v-slot:lead>
-        welcome to my trap house.
+        Welcome to a website all about me
     </template>
     <b-button class='button' variant="primary" href="#">About Me</b-button>
     <b-button class='button' variant="success" href="#">My Projects</b-button>

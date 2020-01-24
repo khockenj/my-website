@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
+  <div id="app" style='height:100%;'>
     <Jumbotron style='padding-top:7.5%;' />
     <Tabs style='width:75%;margin:auto;' />
     <Carousel style='width:75%;margin:auto;display:none;' />
     <Projects  style='width:75%;margin:auto;display:none;'/>
     <Skills style='display:none;'/>
-    <Footer style='margin-top:1%;' />
+    <Footer class="navbar mt-4 mb-0 py-3"/>
   </div>
 </template>
 

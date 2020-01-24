@@ -19,7 +19,7 @@ export default {
 <style scoped>
 #footer {
   background-color:rgba(0,0,0,0.95);
-  height:10%;
+  height:12%;
   width:100%;
   color: rgba(255,255,255,0.4);
   font-size:36px;
