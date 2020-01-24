@@ -1,5 +1,6 @@
 <template>
   <div id="app" style='height:100%;'>
+    <router-view></router-view>
     <Jumbotron style='padding-top:7.5%;' />
     <Tabs style='width:75%;margin:auto;' />
     <Carousel style='width:75%;margin:auto;display:none;' />

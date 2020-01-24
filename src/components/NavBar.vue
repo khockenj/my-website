@@ -11,6 +11,7 @@
         <b-nav-item href="#">Academics</b-nav-item>
         <b-nav-item href="#">Work Experience</b-nav-item>
         <b-nav-item href="#">Skills</b-nav-item>
+        <b-nav-item><router-link to='/roadmap'>Projects Roadmap</router-link></b-nav-item>
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto">
