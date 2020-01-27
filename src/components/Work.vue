@@ -1,13 +1,13 @@
 <template>
-  <div id="roadmap">
-    roadmap
+  <div id="work">
+    work
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Roadmap',
+  name: 'Work',
   components: {
   }
 }

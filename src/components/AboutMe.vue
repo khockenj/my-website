@@ -1,13 +1,13 @@
 <template>
-  <div id="roadmap">
-    roadmap
+  <div id="aboutMe">
+    aboutMe
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Roadmap',
+  name: 'AboutMe',
   components: {
   }
 }

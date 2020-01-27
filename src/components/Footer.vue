@@ -1,5 +1,5 @@
 <template>
-    <div id='footer'>
+    <div id='footer' class='navbar'>
       <div>
         <a href='https://github.com/khockenj'><i class="fab fa-github" v-b-tooltip.hover title="Github"></i></a>
         <a href='https://www.linkedin.com/in/kevin-hockenjos-264371107/'><i class="fab fa-linkedin" v-b-tooltip.hover title="LinkedIn"></i></a>
@@ -18,6 +18,7 @@ export default {
 
 <style scoped>
 #footer {
+  flex:none;
   background-color:rgba(0,0,0,0.95);
   height:12%;
   width:100%;
