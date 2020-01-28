@@ -1,5 +1,5 @@
 <template>
-  <div id='carousel' style='width:75%;margin:auto;'>
+  <div id='carousel'>
 
     <b-carousel
       id="carousel-1"
@@ -29,10 +29,8 @@
 export default {
   name: 'Carousel',
   props: ['tab'],
-  watch: {
-    tab: function() {
-      this.$refs.projectCarousel.setSlide(0);
-    }
+  updated: function() {
+    this.$refs.projectCarousel.setSlide(0);
   },
   data() {
      return { images: [

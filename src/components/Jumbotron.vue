@@ -5,8 +5,8 @@
     <template v-slot:lead>
         Welcome to a website all about me
     </template>
-    <b-button class='button' variant="primary" href="#">About Me</b-button>
-    <b-button class='button' variant="success" href="#">My Projects</b-button>
+    <b-button class='button' variant="primary" to='/about'>About Me</b-button>
+    <b-button class='button' variant="success" to='/projects'>My Projects</b-button>
   </b-jumbotron>
 </template>
 <script>

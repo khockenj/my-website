@@ -16,7 +16,10 @@
         
         <span data-toggle="tooltip" tabindex="0" title="Coming Soon!"><b-button variant='success' class='mt-2 mx-1' size="sm" style='pointer-events:none;' disabled>Website</b-button></span>
         <b-button variant='primary'  class='mt-2 mr-1' size="sm" @click="toggleSideTech">Other Technologies</b-button>
-        <b-alert style='margin:1rem;padding-top:0;' variant='info' :show="showTech" fade><i class="fab fa-bootstrap bootstrap text" v-b-tooltip.hover title="Bootstrap 4"></i></b-alert>
+        <b-alert style='margin:1rem;padding-top:0;' variant='info' :show="showTech" fade>
+        <i class="fab fa-bootstrap bootstrap text px-1" v-b-tooltip.hover title="Bootstrap 4"></i>
+        <i class="fas fa-laptop-code text px-1" v-b-tooltip.hover title="Axios"></i>
+        </b-alert>
       </p>
       
 
@@ -52,7 +55,7 @@
 
         <h5 class="mt-0">Flask</h5>
         <p class="mb-0">
-          I used the Flask microframework to create a RESTful API that is used in cooperation with Vue to load information from the backend (mongoDB and other resources) to show on the frontend.
+          I used the Flask microframework to create a RESTful API that is used in cooperation with Vue to load information from the backend (mongoDB and other resources) to represent and visualize on the frontend.
         </p>
       </b-media>
 

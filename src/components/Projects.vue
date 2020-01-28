@@ -1,7 +1,7 @@
 <template>
-  <div id="roadmap">
+  <div id="projects">
     <Carousel :tab='tab' />
-    <Tabs style='width:75%;margin:auto;' v-on:setTab="tab = $event" />
+    <Tabs v-on:setTab="tab = $event" />
   </div>
 </template>
 
@@ -21,3 +21,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+#projects {
+  width:75%;margin:auto;
+}
+</style>
