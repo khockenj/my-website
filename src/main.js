@@ -4,6 +4,10 @@ import App from './App.vue'
 import NavBar from './components/NavBar.vue'
 import Footer from './components/Footer.vue'
 import Home from './components/Home.vue'
+import AboutMe from './components/AboutMe.vue'
+import Academics from './components/Academics.vue'
+import Work from './components/Work.vue'
+import Skills from './components/Skills.vue'
 import Roadmap from './components/Roadmap.vue'
 import Projects from './components/Projects.vue'
 import { BootstrapVue } from 'bootstrap-vue'
@@ -16,6 +20,10 @@ Vue.use(VueRouter);
 
 const routes = [
   { path: '/', component: Home },
+  { path: '/about', component: AboutMe },
+  { path: '/academics', component: Academics },
+  { path: '/work', component: Work },
+  { path: '/skills', component: Skills },
   { path: '/roadmap', component: Roadmap },
   { path: '/projects', component: Projects }
 ]
