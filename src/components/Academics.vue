@@ -1,6 +1,6 @@
 <template>
   <div id="academics">
-    <b-card class="deck-holder" title="My Academics">
+    <b-card class="deck-holder" title="Academics">
       <b-card-group deck class='justify-content-center'>
         <b-card
           class="schools"
@@ -62,6 +62,8 @@ export default {
 }
 .schools {
   max-width: 20rem;
+  /* This spaces out the cards a bit more */
+  /* margin:0 5rem 0rem 5rem!important; */
 }
 .big {
   font-size: 64px;
@@ -72,6 +74,6 @@ export default {
   object-fit: cover;
 }
 .deck-holder {
-  background-color: rgba(255, 255, 255, 0.99);
+  background-color: rgba(255, 255, 255, .99);
 }
 </style>
