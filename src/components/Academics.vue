@@ -1,14 +1,16 @@
 <template>
   <div id="academics">
-    <b-card class="deck-holder" title="Academics">
+    <b-card class="deck-holder" title="Academics &amp; Work Experience">
       <b-card-group deck class='justify-content-center'>
         <b-card
+          header="Education"
           class="schools"
-          img-src="/calhoun.png"
-          img-alt="Sanford H. Calhoun High School"
-          img-top
           no-body
+          border-variant="success"
+          header-bg-variant="success"
+          header-text-variant="white"
         >
+          <div><img class='card-img' src='/calhoun.png' alt="Sanford H. Calhoun High School" /></div>
           <div class="pseudo-footer">
             <h5 class="text-muted">Sanford H. Calhoun High School</h5>
           </div>
@@ -21,12 +23,14 @@
         </b-card>
 
         <b-card
+          header="Education"
           class="schools"
-          img-src="/stevens.png"
-          img-alt="Stevens Institute of Technology"
-          img-top
           no-body
+                    border-variant="success"
+          header-bg-variant="success"
+          header-text-variant="white"
         >
+          <div><img class='card-img' src='/stevens.png' alt="Stevens Institute of Technology" /></div>
           <div class="pseudo-footer">
             <h5 class="text-muted">Stevens Institute of Technology</h5>
           </div>
@@ -38,6 +42,28 @@
           </template>
         </b-card>
 
+      <b-card
+          header="Work"
+          class="schools"
+          no-body
+          border-variant="primary"
+          header-bg-variant="primary"
+          header-text-variant="white"
+        >
+          <div><img class='card-img' src='/tci.png' alt="Teledata Communications, Inc." /></div>
+          <div class="pseudo-footer">
+            <h5 class="text-muted">Teledata Communications, Inc.</h5>
+          </div>
+          <div class="pseudo-footer">
+            <p class="text-muted">Technology Specialist</p>
+          </div>
+          <div class='work-location'><small class="text-muted">Islandia, New York</small></div>
+          <template v-slot:footer>
+            <small class="text-muted">June 2019 - Present</small>
+          </template>
+        </b-card>
+
+ 
       </b-card-group>
     </b-card>
   </div>
@@ -45,7 +71,9 @@
 
 <script>
 export default {
-  name: "Academics"
+  name: "Academics",
+  components: {
+  }
 };
 </script>
 
@@ -54,6 +82,11 @@ export default {
   padding-top: 2em;
   width: 75%;
   margin: auto;
+}
+.work-location {
+background-color: rgba(0, 0, 0, 0.03);
+border-top: 1px solid rgba(0, 0, 0, 0.125);
+padding:.25rem;
 }
 .pseudo-footer {
   padding-top: 0.75rem;
@@ -68,7 +101,7 @@ export default {
 .big {
   font-size: 64px;
 }
-.card-img-top {
+.card-img-top, .card-img {
   width: 100%;
   height: 18vw;
   object-fit: cover;

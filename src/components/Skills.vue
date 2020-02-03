@@ -11,6 +11,8 @@
 <i class="fab fa-node-js node" v-b-tooltip.hover title="node.js"></i>
 <i class="fab fa-node node" v-b-tooltip.hover title="node.js"></i>
 <i class="fab fa-bootstrap bootstrap" v-b-tooltip.hover title="Bootstrap 4"></i>
+<i class="fab fa-windows" v-b-tooltip.hover title="Microsoft Office"></i>
+<i class="fab fa-google-drive" v-b-tooltip.hover title="Google Drive"></i>
 </div>
 </template>
 <script>

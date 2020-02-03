@@ -3,7 +3,7 @@
   <b-card>
     <b-media>
       <template v-slot:aside>
-        <b-img src='/lom.png' width="96" alt="League of Mentoring"></b-img>
+        <b-img src='/lom.png' class='img-tab' alt="League of Mentoring"></b-img>
       </template>
 
       <h5 class="mt-0">League of Mentoring</h5>
@@ -92,12 +92,37 @@ export default {
 </script>
 
 <style scoped>
+@media (min-width: 576px) {
 .fab, .fas {
-  font-size: 96px;
+  font-size: 5.5rem;
   padding-top: 1rem;
+}
+
+.img-tab {
+  width:5.5rem;
 }
 .text {
   font-size:36px;
+  padding-top:.5rem;
+  padding-left:.25rem;
+}
+
+}
+
+@media (max-width: 575px){
+.fab, .fas {
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+.img-tab {
+  width:3rem;
+}
+.text {
+  font-size:2rem;
+  padding-top:.5rem;
+  padding-left:.25rem;
+  color: rgba(0,0,0,11);
+}
 }
 .card {
   border-top:0;

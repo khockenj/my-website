@@ -4,7 +4,7 @@
   <ul class="list-unstyled">
     <b-media tag="li">
       <template v-slot:aside>
-         <i class="fas fa-code big"></i>
+         <i class="fas fa-code big bootstrap"></i>
       </template>
       <h5 class="mt-0 mb-1">My Website</h5>
       <p class="mb-0">
@@ -15,7 +15,7 @@
 
     <b-media tag="li" class="my-4">
       <template v-slot:aside>
-       <i class="fas fa-laptop-code big"></i>
+       <i class="fas fa-laptop-code big css3"></i>
       </template>
 
       <h5 class="mt-0 mb-1">League of Mentoring</h5>
@@ -28,7 +28,7 @@
 
     <b-media tag="li">
       <template v-slot:aside>
-        <i class="fas fa-gamepad big"></i>
+        <i class="fas fa-gamepad big node"></i>
       </template>
 
       <h5 class="mt-0 mb-1">HTML5 Canvas Game</h5>

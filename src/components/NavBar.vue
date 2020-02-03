@@ -8,8 +8,8 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item to='/about'>About Me</b-nav-item>
-        <b-nav-item to='/academics'>Academics</b-nav-item>
-        <b-nav-item to='/work'>Work Experience</b-nav-item>
+        <b-nav-item to='/academics'>Academics &amp; Work Experience</b-nav-item>
+        <!--<b-nav-item to='/work'>Work Experience</b-nav-item>-->
         <b-nav-item to='/skills'>Skills</b-nav-item>
         <b-nav-item to='/roadmap'>Projects Roadmap</b-nav-item>
       </b-navbar-nav>
