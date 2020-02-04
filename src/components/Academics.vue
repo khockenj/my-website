@@ -10,7 +10,7 @@
           header-bg-variant="success"
           header-text-variant="white"
         >
-          <div><img class='card-img' src='/calhoun.png' alt="Sanford H. Calhoun High School" /></div>
+          <div><a href='http://www.bellmore-merrick.k12.ny.us/schools/sanford_h_calhoun_high_school' target="_blank" rel="nofollow noopener"><img class='card-img' src='/calhoun.png' alt="Sanford H. Calhoun High School" /></a></div>
           <div class="pseudo-footer">
             <h5 class="text-muted">Sanford H. Calhoun High School</h5>
           </div>
@@ -30,7 +30,7 @@
           header-bg-variant="success"
           header-text-variant="white"
         >
-          <div><img class='card-img' src='/stevens.png' alt="Stevens Institute of Technology" /></div>
+          <div><a href='https://www.stevens.edu/school-systems-enterprises/undergraduate-programs/software-engineering' target="_blank" rel="nofollow noopener"><img class='card-img' src='/stevens.png' alt="Stevens Institute of Technology" /></a></div>
           <div class="pseudo-footer">
             <h5 class="text-muted">Stevens Institute of Technology</h5>
           </div>
@@ -50,7 +50,7 @@
           header-bg-variant="primary"
           header-text-variant="white"
         >
-          <div><img class='card-img' src='/tci.png' alt="Teledata Communications, Inc." /></div>
+          <div><a href='https://tcicredit.com/' target="_blank" rel="nofollow noopener"><img class='card-img' src='/tci.png' alt="Teledata Communications, Inc." /></a></div>
           <div class="pseudo-footer">
             <h5 class="text-muted">Teledata Communications, Inc.</h5>
           </div>
@@ -79,7 +79,7 @@ export default {
 
 <style scoped>
 #academics {
-  padding-top: 2em;
+  padding-top: 2rem;
   width: 75%;
   margin: auto;
 }

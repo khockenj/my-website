@@ -1,7 +1,8 @@
 <template>
   <div id="projects">
+    {{tab}}
     <Carousel :tab='tab' />
-    <Tabs v-on:setTab="tab = $event" />
+    <Tabs :tab='tab' v-on:setTab="tab = $event"/>
   </div>
 </template>
 
@@ -16,7 +17,14 @@ export default {
   },
   data() {
     return {
-      tab: 'LOM'
+      tab: null,
+    }
+  },
+  created: function() {
+    if(this.$attrs.tab) {
+      this.tab = this.$attrs.tab;
+    } else {
+      this.tab = 'SITE';
     }
   }
 }

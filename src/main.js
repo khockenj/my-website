@@ -25,7 +25,7 @@ const routes = [
   { path: '/work', component: Work },
   { path: '/skills', component: Skills },
   { path: '/roadmap', component: Roadmap },
-  { path: '/projects', component: Projects }
+  { path: '/projects', name:"Projects",  component: Projects, props:true }
 ]
 
 const router = new VueRouter({

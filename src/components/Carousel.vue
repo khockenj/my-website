@@ -1,6 +1,6 @@
 <template>
   <div id='carousel'>
-
+    {{tab}}
     <b-carousel
       id="carousel-1"
       :interval="4000"
@@ -39,11 +39,11 @@ export default {
                ],
 
                testImages: {
-               "LOM": [
+               "SITE": [
                {'url': 'https://picsum.photos/1024/480/?image=52', 'caption': 'ooga booga', 'text': 'i love running'},
                {'url': 'https://picsum.photos/1024/480/?image=57', 'caption': 'ooga booga2', 'text': 'i love running2'}
                ],
-               "SITE": [
+               "LOM": [
                {'url': 'https://picsum.photos/1024/480/?image=58', 'caption': 'league of legends', 'text': 'i love league of legends'},
                {'url': 'https://picsum.photos/1024/480/?image=52', 'caption': 'teamfight tactics', 'text': 'i love teamfight tactics'}
                ]

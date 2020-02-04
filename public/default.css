@@ -25,6 +25,12 @@ color: #FFD947;
 .npm {
     color:#CC3534;
 }
+.msft {
+    color:#3377BB;
+}
+.gdrive {
+    color:#2DB672;
+}
 html, body {
    background-color:rgba(0,0,0,0.85);
 }

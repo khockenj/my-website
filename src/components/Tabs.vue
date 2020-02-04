@@ -1,6 +1,6 @@
 <template>
 <div>
-  <b-tabs @input='changeTab' v-model='tabIndex' content-class="mt-3" justified>
+  <b-tabs @activate-tab='changeTab' v-model='tabIndex' content-class="mt-3" justified>
     <b-tab title="My Website" active><Website /></b-tab>
     <b-tab title="League of Mentoring"><LOM /></b-tab>
      <b-tab disabled>
@@ -32,6 +32,7 @@ export default {
     StockTracker,
     USPlot
   },
+  props: ['tab'],
    data() {
       return {
         tabIndex: 1
@@ -40,14 +41,24 @@ export default {
     methods: {
       changeTab(tab) {
         switch(tab) {
-          case 1:
+          case 0:
             this.$emit('setTab', "SITE");
             break;
-          case 0:
+          case 1:
             this.$emit('setTab', "LOM");
             break;
         }
       }
+    },
+    updated: function() {
+      switch(this.tab) {
+          case "SITE":
+            this.tabIndex = 0;
+            break;
+          case "LOM":
+            this.tabIndex = 1;
+            break;
+        }
     }
 }
 </script>
