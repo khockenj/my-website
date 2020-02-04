@@ -1,6 +1,6 @@
 <template>
   <div id="roadmap">
-  <b-card title="Projects Roadmap" sub-title="Last Update: 1/29/2020">
+  <b-card header="Projects Roadmap" sub-title="Last Update: 1/29/2020">
   <ul class="list-unstyled">
     <b-media tag="li">
       <template v-slot:aside>
@@ -59,5 +59,15 @@ export default {
 }
 .big {
   font-size:64px;
+}
+.card-header{
+  text-align:center;
+  font-size:24px;
+  color:#949494;
+}
+.card-subtitle {
+  text-align:center;
+  color:#949494;
+  font-size:16px;
 }
 </style>

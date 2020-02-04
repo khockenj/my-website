@@ -1,6 +1,9 @@
 <template>
   <div id="academics">
-    <b-card class="deck-holder" title="Academics &amp; Work Experience">
+    <b-card class="deck-holder">
+       <template v-slot:header>
+      <span class='pseudo-header'>Academics &amp; Work Experience</span>
+    </template>
       <b-card-group deck class='justify-content-center'>
         <b-card
           header="Education"
@@ -109,4 +112,11 @@ padding:.25rem;
 .deck-holder {
   background-color: rgba(255, 255, 255, .99);
 }
+
+.pseudo-header {
+  text-align:center;
+  font-size:24px;
+  color:#949494;
+}
+
 </style>

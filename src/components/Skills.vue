@@ -1,6 +1,9 @@
 <template>
 <div class='skills'>
-<b-card>
+<b-card 
+header='Skills'
+title='Page in Progress'
+>
 <div>
 <i class="fab fa-html5 html5" v-b-tooltip.hover title="HTML5"></i>
 <i class="fab fa-css3-alt css3" v-b-tooltip.hover title="CSS3"></i>
@@ -34,5 +37,16 @@ export default {
 }
 .fab, .fas {
     padding: .5rem;
+}
+
+.card-header{
+  text-align:center;
+  font-size:24px;
+  color:#949494;
+}
+.card-subtitle, .card-title {
+  text-align:center;
+  color:#949494;
+  font-size:16px;
 }
 </style>

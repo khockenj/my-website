@@ -23,10 +23,11 @@ export default {
   created: function() {
     if(this.$attrs.tab) {
       this.tab = this.$attrs.tab;
+      this.$attrs.tab = null;
     } else {
       this.tab = 'SITE';
     }
-  }
+  },
 }
 </script>
 

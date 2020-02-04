@@ -1,20 +1,19 @@
 <template>
   <div id='carousel'>
-    {{tab}}
     <b-carousel
       id="carousel-1"
       :interval="4000"
       controls
       indicators
       background="#ababab"
-      img-width="1024"
-      img-height="480"
+      img-height="400"
+      img-width="1500"
       style="text-shadow: 1px 1px 2px #333;object-fit: cover;"
       ref='projectCarousel'
     >
     <b-carousel-slide
      
-        v-for="i in testImages[tab]"
+        v-for="i in images[tab]"
         v-bind:key='i.url'
         :caption="i.caption"
         :text="i.text"
@@ -33,19 +32,16 @@ export default {
     this.$refs.projectCarousel.setSlide(0);
   },
   data() {
-     return { images: [
-               {'url': '/figoskirun.jpg', 'caption': 'ooga booga', 'text': 'i love running'},
-               {'url': '/league.jpeg', 'caption': 'league of legends', 'text': 'i love league of legends'}
-               ],
-
-               testImages: {
+    //Images are 1500Wx400H
+     return { 
+               images: {
                "SITE": [
-               {'url': 'https://picsum.photos/1024/480/?image=52', 'caption': 'ooga booga', 'text': 'i love running'},
-               {'url': 'https://picsum.photos/1024/480/?image=57', 'caption': 'ooga booga2', 'text': 'i love running2'}
+               {'url': '/websitecode.png', 'caption': '', 'text': ''},
+               {'url': '/github.png', 'caption': '', 'text': ''}
+              
                ],
                "LOM": [
-               {'url': 'https://picsum.photos/1024/480/?image=58', 'caption': 'league of legends', 'text': 'i love league of legends'},
-               {'url': 'https://picsum.photos/1024/480/?image=52', 'caption': 'teamfight tactics', 'text': 'i love teamfight tactics'}
+               {'url': '/placeholder.png', 'caption': 'Images coming soon!', 'text': 'Actual Pictures and link will be available soon :)'}
                ]
                }
   }
