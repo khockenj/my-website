@@ -40,19 +40,19 @@ header='Skills'
       <div><i class="fab fa-bootstrap bootstrap" v-b-tooltip.hover title="Bootstrap 4"></i></div>
     </b-card>
     <b-card no-body>
-      <div><i class="fab fa-windows msft" v-b-tooltip.hover title="Microsoft Office"></i></div>
+      <div><i class="fab fa-windows msft" v-b-tooltip.hover title="Word, Excel, Powerpoint, Teams, Sharepoint, Project"></i></div>
        <template v-slot:footer>
       <span class='hover-me' v-b-tooltip.hover placement='rightbottom' title="Word, Excel, Powerpoint, Teams, Sharepoint, Project">Microsoft Office</span>
       </template>
     </b-card>
     <b-card no-body>
-      <div><i class="fab fa-google-drive gdrive" v-b-tooltip.hover title="Google Drive"></i></div>
+      <div><i class="fab fa-google-drive gdrive" v-b-tooltip.hover title="Docs, Sheets, Slides"></i></div>
        <template v-slot:footer>
       <span class='hover-me' v-b-tooltip.hover placement='rightbottom' title="Docs, Sheets, Slides">Google Drive</span>
       </template>
     </b-card>
     <b-card no-body>
-      <div><i class="fas fa-database color-1" v-b-tooltip.hover title="SQL/NoSQL"></i></div>
+      <div><i class="fas fa-database color-1" v-b-tooltip.hover title="mongoDB, SQLite, MySQL"></i></div>
        <template v-slot:footer>
       <span class='hover-me' v-b-tooltip.hover placement='rightbottom' title="mongoDB, SQLite, MySQL">SQL/NoSQL</span>
       </template>
@@ -97,5 +97,6 @@ export default {
 
 .hover-me {
   cursor:pointer;
+  /* color:steelblue; */
 }
 </style>
