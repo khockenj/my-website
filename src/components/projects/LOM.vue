@@ -14,7 +14,7 @@
         <br />
         
         
-        <span data-toggle="tooltip" tabindex="0" title="Coming Soon!"><b-button variant='success' class='mt-2 mx-1' size="sm" style='pointer-events:none;' disabled>Website</b-button></span>
+        <span data-toggle="tooltip" tabindex="0" v-b-tooltip.hover title="Coming Soon!"><b-button variant='success' class='mt-2 mx-1' size="sm" style='pointer-events:none;' disabled>Website</b-button></span>
         <b-button variant='primary'  class='mt-2 mr-1' size="sm" @click="toggleSideTech">Other Technologies</b-button>
         <b-alert style='margin:1rem;padding-top:0;' variant='info' :show="showTech" fade>
         <i class="fab fa-bootstrap bootstrap text px-1" v-b-tooltip.hover title="Bootstrap 4"></i>

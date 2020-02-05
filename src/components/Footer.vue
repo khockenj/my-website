@@ -1,10 +1,10 @@
 <template>
     <div id='footer' class='navbar'>
       <div>
-        <a href='https://github.com/khockenj'><i class="fab fa-github" v-b-tooltip.hover title="Github"></i></a>
-        <a href='https://www.linkedin.com/in/kevin-hockenjos-264371107/'><i class="fab fa-linkedin" v-b-tooltip.hover title="LinkedIn"></i></a>
+        <a href='https://github.com/khockenj' target="_blank" rel="nofollow noopener"><i class="fab fa-github" v-b-tooltip.hover title="Github"></i></a>
+        <a href='https://www.linkedin.com/in/kevin-hockenjos-264371107/' target="_blank" rel="nofollow noopener"><i class="fab fa-linkedin" v-b-tooltip.hover title="LinkedIn"></i></a>
         <a href='mailto:khockenj@gmail.com'><i class="fas fa-paper-plane" v-b-tooltip.hover title="khockenj@gmail.com"></i></a>
-        <i class="fas fa-file-alt" v-b-tooltip.hover title="Resume"></i>
+        <a href='https://drive.google.com/file/d/1Wxca0DxutLRAWSDXOPhp7D2B1HytLYEv/view?usp=sharing' target="_blank" rel="nofollow noopener"><i class="fas fa-file-alt" v-b-tooltip.hover title="Resume"></i></a>
       </div>
       <div class='text'>&copy; 2020 Kevin Hockenjos</div>
     </div>

@@ -15,7 +15,7 @@
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto">
-        <b-nav-item-dropdown text="Projects" right>
+        <b-nav-item-dropdown text="Projects" right :disabled="this.$route.name == 'Projects'">
           <b-dropdown-item v-for='p in projects' v-bind:key='p.name' :to="{'name': 'Projects', 'params': {tab: p.url}}">{{p.name}}</b-dropdown-item>
         </b-nav-item-dropdown>
 

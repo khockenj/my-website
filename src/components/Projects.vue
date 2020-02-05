@@ -27,7 +27,7 @@ export default {
     } else {
       this.tab = 'SITE';
     }
-  },
+  } 
 }
 </script>
 
