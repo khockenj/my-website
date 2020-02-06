@@ -6,11 +6,11 @@
       <template v-slot:aside>
          <i class="fas fa-code big bootstrap"></i>
       </template>
-      <h5 class="mt-0 mb-1">My Website</h5>
+      <h5 class="mt-0 mb-1"><b-link class='headerLink' :to="{'name': 'Projects', 'params': {tab: 'SITE'}}">My Website</b-link></h5>
       <p class="mb-0">
         My primary objective is to complete this website first so I can use it as a place to access all of my future projects all in one place. 
       </p>
-      <p><b-badge variant='danger'>February 2020</b-badge></p>
+      <p><b-badge variant='danger'>February 2020</b-badge><b-badge :to="{'name': 'Projects', 'params': {tab: 'SITE'}}" variant="info">Project Info</b-badge></p>
     </b-media>
 
     <b-media tag="li" class="my-4">
@@ -18,12 +18,12 @@
        <i class="fas fa-laptop-code big css3"></i>
       </template>
 
-      <h5 class="mt-0 mb-1">League of Mentoring</h5>
+      <h5 class="mt-0 mb-1"><b-link class='headerLink' :to="{'name': 'Projects', 'params': {tab: 'LOM'}}">League of Mentoring</b-link></h5>
       <p class="mb-0">
         This project is nearing completion for it's initial launch. The only things remaining to be built out are the review system and the scheduling system along with testing, fulltime hosting setup and deployment.
         After working out any issues after launch a way to track your stats and improvement may be added using the Riot API.
       </p>
-      <p><b-badge variant='danger'>March 2020</b-badge></p>
+      <p><b-badge variant='danger'>March 2020</b-badge><b-badge :to="{'name': 'Projects', 'params': {tab: 'LOM'}}" variant="info">Project Info</b-badge></p>
     </b-media>
 
     <b-media tag="li">
@@ -70,7 +70,14 @@ export default {
   color:#949494;
   font-size:16px;
 }
-/* h5 {
-   text-decoration:underline; 
-} */
+.headerLink, .headerLink:hover, h5 {
+   text-decoration:underline;
+   color:#000;
+}
+.headerLink:hover {
+  color:steelblue;
+}
+.badge {
+  margin-right:.2rem;
+}
 </style>

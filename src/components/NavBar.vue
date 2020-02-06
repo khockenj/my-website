@@ -48,4 +48,7 @@ export default {
   top:0;
   z-index:999;
 }
+/* .navbar-brand {
+   text-transform:uppercase; 
+} */
 </style>
