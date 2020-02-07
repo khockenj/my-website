@@ -1,10 +1,9 @@
 <template>
   <div id="aboutMe">
     <b-card header="About Me">
-      <b-card>
         <b-media>
           <template v-slot:aside>
-            <b-img src="/me.jpg" width="64" alt="placeholder"></b-img>
+            <b-img src="/me.jpg" class='big-img' alt="placeholder"></b-img>
           </template>
 
           <h5 class="mt-0">general ?</h5>
@@ -26,6 +25,8 @@
             <h5 class="mt-0">what im looking for ?</h5>
             <p class="mb-0">
               Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+              faucibus. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+              faucibus. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
               faucibus.
             </p>
           </b-media>
@@ -38,13 +39,16 @@
             <h5 class="mt-0">coding ?</h5>
             <p class="mb-0">
               Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+              faucibus.  Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+              faucibus.  Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+              faucibus.  Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
               faucibus.
             </p>
           </b-media>
           
         </b-media>
       </b-card>
-    </b-card>
+
   </div>
 </template>
 
@@ -61,9 +65,7 @@ export default {
   margin: auto;
   text-align: left;
 }
-.big {
-  font-size: 64px;
-}
+
 .card-header {
   text-align: center;
   font-size: 24px;
@@ -77,5 +79,25 @@ export default {
 }
 .media {
   padding: 0.75rem;
+}
+
+@media (min-width: 576px) {
+  .big {
+    font-size: 4rem;
+    padding-top: 1rem;
+  }
+  .big-img {
+    width:6rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .big {
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+.big-img {
+    width:3rem;
+  }
 }
 </style>
