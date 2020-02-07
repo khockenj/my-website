@@ -1,36 +1,81 @@
 <template>
   <div id="aboutMe">
-    <b-card header='About Me' title='Page in Progress'>
-      about me.
+    <b-card header="About Me">
+      <b-card>
+        <b-media>
+          <template v-slot:aside>
+            <b-img src="/me.jpg" width="64" alt="placeholder"></b-img>
+          </template>
+
+          <h5 class="mt-0">general ?</h5>
+          <p>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
+            ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </p>
+          <p>
+            Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          </p>
+
+          <b-media>
+            <template v-slot:aside>
+              <i class="fas fa-city big"></i>
+            </template>
+
+            <h5 class="mt-0">what im looking for ?</h5>
+            <p class="mb-0">
+              Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+              faucibus.
+            </p>
+          </b-media>
+
+          <b-media>
+            <template v-slot:aside>
+              <i class="fas fa-code big"></i>
+            </template>
+
+            <h5 class="mt-0">coding ?</h5>
+            <p class="mb-0">
+              Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+              faucibus.
+            </p>
+          </b-media>
+          
+        </b-media>
+      </b-card>
     </b-card>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'AboutMe'
-}
+  name: "AboutMe"
+};
 </script>
 
 <style scoped>
 #aboutMe {
-  padding-top:2em;
-  width:75%;
-  margin:auto;
+  padding-top: 2em;
+  width: 75%;
+  margin: auto;
+  text-align: left;
 }
 .big {
-  font-size:64px;
+  font-size: 64px;
 }
-
-.card-header{
-  text-align:center;
-  font-size:24px;
-  color:#949494;
+.card-header {
+  text-align: center;
+  font-size: 24px;
+  color: #949494;
 }
-.card-subtitle, .card-title {
-  text-align:center;
-  color:#949494;
-  font-size:16px;
+.card-subtitle,
+.card-title {
+  text-align: center;
+  color: #949494;
+  font-size: 16px;
+}
+.media {
+  padding: 0.75rem;
 }
 </style>
