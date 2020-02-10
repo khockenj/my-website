@@ -36,21 +36,27 @@ export default {
      return { 
                images: {
                "SITE": [
-               {'url': '/websitecode.png', 'caption': '', 'text': ''},
+               {'url': '/websitecode.png', 'caption': 'My Website', 'text': ''},
                {'url': '/github.png', 'caption': '', 'text': ''}
               
                ],
                "LOM": [
-               {'url': '/placeholder.png', 'caption': 'Images coming soon!', 'text': 'Actual Pictures and link will be available soon :)'}
+               {'url': '/placeholder.png', 'caption': 'League of Mentoring', 'text': 'Actual Pictures and link will be available soon :)'}
+               ],
+               "NYPLOT": [
+               {'url': '/dataScience/preview.png', 'caption': '', 'text': ''},
+                {'url': '/dataScience/preview2.png', 'caption': '', 'text': ''}
                ]
-               }
+               },
   }
   }
 }
 </script>
 
 <style scoped>
+
 #carousel {
     text-align:center;
 }
+
 </style>

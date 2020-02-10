@@ -12,6 +12,7 @@
           <!--<b-nav-item to='/work'>Work Experience</b-nav-item>-->
           <b-nav-item to="/skills">Skills</b-nav-item>
           <b-nav-item to="/roadmap">Projects Roadmap</b-nav-item>
+          <b-nav-item to="/roadmap" disabled>League of Legends</b-nav-item>
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
@@ -36,7 +37,7 @@ export default {
       projects: [
         { name: "My Website", url: "SITE" },
         { name: "League of Mentoring", url: "LOM" },
-        { name: "US Data Plotting", url: "SITE" },
+        { name: "NY Population Data Visualizations", url: "NYPLOT" },
         { name: "Stock Tracker", url: "SITE" }
       ]
     };

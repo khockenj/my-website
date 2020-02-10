@@ -7,10 +7,9 @@
       <b-tab title="League of Mentoring">
         <LOM />
       </b-tab>
-      <b-tab disabled>
+      <b-tab>
         <template v-slot:title>
-          US Data Plotting
-          <b-badge variant="danger">Coming Soon</b-badge>
+          NY Population Data Visualizations
         </template>
         <USPlot />
       </b-tab>
@@ -53,6 +52,8 @@ export default {
         case 1:
           this.$emit("setTab", "LOM");
           break;
+        case 2:
+          this.$emit("setTab", "NYPLOT")
       }
     }
   },
@@ -63,6 +64,9 @@ export default {
         break;
       case "LOM":
         this.tabIndex = 1;
+        break;
+      case "NYPLOT":
+        this.tabIndex = 2;
         break;
     }
   }
