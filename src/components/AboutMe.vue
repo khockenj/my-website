@@ -1,48 +1,23 @@
 <template>
   <div id="aboutMe">
-    <b-card header="About Me">
+    <b-card header="About Me" title="Page in progress :)">
         <b-media>
           <template v-slot:aside>
             <b-img src="/me.jpg" class='big-img' alt="placeholder"></b-img>
           </template>
 
-          <h5 class="mt-0">general ?</h5>
+          <h5 class="mt-0">Me</h5>
           <p>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
-            ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+           I'm a 22 year old Software Developer from New York. I graduated from Stevens Institute of Technology in May 2019 with a Bachelor's of Engineering in Software Engineering.
           </p>
-          <p>
-            Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </p>
-
-          <b-media>
-            <template v-slot:aside>
-              <i class="fas fa-city big"></i>
-            </template>
-
-            <h5 class="mt-0">what im looking for ?</h5>
-            <p class="mb-0">
-              Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-              faucibus. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-              faucibus. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-              faucibus.
-            </p>
-          </b-media>
-
           <b-media>
             <template v-slot:aside>
               <i class="fas fa-code big"></i>
             </template>
 
-            <h5 class="mt-0">coding ?</h5>
+            <h5 class="mt-0">Software Interests</h5>
             <p class="mb-0">
-              Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-              faucibus.  Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-              faucibus.  Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-              faucibus.  Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-              faucibus.
+              Currently, my interests within Software Development are mainly focused in Data Analysis and Full Stack Development.
             </p>
           </b-media>
           
