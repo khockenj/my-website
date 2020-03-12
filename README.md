@@ -1,5 +1,8 @@
 # Kevin Hockenjos Website
 
+## General Info
+I made this simple site to be the home of my future projects. It's primarily made with Vue and Bootstrap-Vue, and helped me learn more about the Vue ecosystem. 
+
 ## Project setup
 ```
 npm install
